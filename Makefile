@@ -1,0 +1,2 @@
+reproduce:
+	nbexec notebooks
