@@ -2,7 +2,10 @@
 
 This repository contains data, Python code, and findings relevant to BuzzFeed News's analysis of children's home inspection data from the UK's [Office for Standards in Education, Children's Services and Skills](https://www.gov.uk/government/organisations/ofsted) ("Ofsted").
 
-Please see [this related BuzzFeed News article]( https://www.buzzfeed.com/richholmes/care-price), published 26 July 2018, for important context.
+For important context, please see these two related BuzzFeed News articles:
+
+- https://www.buzzfeed.com/richholmes/care-price (26 July 2018)
+- https://www.buzzfeed.com/richholmes/keys-group-aaron-leafe (2 August 2018)
 
 ## Table Of Contents
 
@@ -51,7 +54,7 @@ The main analysis begins with the "as at 31 March 2018" data described above, an
 
 - Merges this data with the private-sector ownership information described above.
 
-- Identifies homes owned by Cambian PLC.
+- Identifies homes owned by Cambian PLC and by Keys Group.
 
 - Tallies the number of homes by "overall effectiveness", which Ofsted rates as either "Inadequate", "Requires improvement [to be good]", "Good", or "Outstanding".
 
@@ -61,6 +64,8 @@ The main analysis begins with the "as at 31 March 2018" data described above, an
 
 - Cambian homes: 39 homes "Inadequate" or "Requires improvement" out of 159 inspected (25% subpar)
 - Non-Cambian private sector: 259 of 1,370 (19% subpar)
+- Keys homes: 15 of 69 (22% subpar)
+- Non-Keys private sector: 283 of 1,460 (19% subpar)
 - All private sector: 298 of 1,529 (19% subpar)
 - Voluntary sector: 24 of 153 (16% subpar)
 - Local authority sector: 61 of 401 (15% subpar)
@@ -74,6 +79,8 @@ The first of the alternative analyses uses the most recent full inspection condu
 
 - Cambian homes: 40 homes "Inadequate" or "Requires improvement" out of 159 inspected (25% subpar)
 - Non-Cambian private sector: 280 of 1,380 (20% subpar)
+- Keys homes: 19 of 74 (26% subpar)
+- Non-Keys private sector: 301 of 1,465 (21% subpar)
 - All private sector: 320 of 1,539 (21% subpar)
 - Voluntary sector: 26 of 158 (16% subpar)
 - Local authority sector: 66 of 392 (17% subpar)
@@ -83,6 +90,8 @@ The second alternative analysis calculates the proportion of homes that received
 
 - Cambian homes: 41 homes "Inadequate" or "Requires improvement" in at least one inspection, out of 159 inspected (26% subpar)
 - Non-Cambian private sector: 307 of 1,380 (22% subpar)
+- Keys homes: 20 of 74 (27% subpar)
+- Non-Keys private sector: 328 of 1,465 (22% subpar)
 - All private sector: 348 of 1,539 (23% subpar)
 - Voluntary sector: 27 of 158 (17% subpar)
 - Local authority sector: 72 of 392 (18% subpar)
